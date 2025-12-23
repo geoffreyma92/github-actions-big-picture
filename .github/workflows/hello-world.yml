@@ -8,4 +8,4 @@ jobs:
     steps:
       - name: checkout repository code
         uses: actions/checkout@v6.0.1
-      - run: echo "$(cat hello_word.txt)"
+      - run: echo "$(cat hello_world.txt)"
